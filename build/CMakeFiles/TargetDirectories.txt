@@ -1,7 +1,0 @@
-/user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/install.dir
-/user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/list_install_components.dir
-/user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/rebuild_cache.dir
-/user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/edit_cache.dir
-/user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/install/strip.dir
-/user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/install/local.dir
-/user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/Hadr07.dir
