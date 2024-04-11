@@ -1,0 +1,59 @@
+#
+# Macro file for "Hadr07.cc"
+#
+# limit the step size from histo 10
+#
+/control/verbose 2
+/run/verbose 2
+#
+/testhadr/det/setNbOfAbsor  8
+#/testhadr/det/setAbsor 1 Water  0.5 um
+###/testhadr/det/setIsotopeMat B10 5 10 2.46 g/cm3
+
+/testhadr/det/setAbsor 1 1Bwater 2.5 um
+/testhadr/det/setAbsor 2 1Bwater 2.5 um
+/testhadr/det/setAbsor 3 1Bwater 2.5 um
+/testhadr/det/setAbsor 4 1Bwater 2.5 um
+/testhadr/det/setAbsor 5 1Bwater 2.5 um
+/testhadr/det/setAbsor 6 1Bwater 2.5 um
+/testhadr/det/setAbsor 7 1Bwater 2.5 um
+/testhadr/det/setAbsor 8 1Bwater 2.5 um
+/testhadr/det/setSizeYZ 20 um
+
+
+#
+/run/initialize
+#
+
+/testhadr/gun/setDefault
+/gun/particle neutron
+/gun/energy 0.025 eV
+
+/process/list
+/process/inactivate hadElastic
+###/process/inactivate alphaInelastic
+###/process/inactivate nCapture
+
+#
+/analysis/setFileName boron
+/analysis/h1/set 1 100 0. 3000. keV	#edep profile
+/analysis/h1/set 2 100 0. 3000. keV	#edep profile
+/analysis/h1/set 3 100 0. 3000. keV	#edep profile
+/analysis/h1/set 4 100 0. 3000. keV	#edep profile
+/analysis/h1/set 5 100 0. 3000. keV	#edep profile
+/analysis/h1/set 6 100 0. 3000. keV	#edep profile
+/analysis/h1/set 7 100 0. 3000. keV	#edep profile
+/analysis/h1/set 8 100 0. 3000. keV	#edep profile
+/analysis/h1/set 9 100 0. 3000. keV	#edep profile
+/analysis/h1/set 10 100 0. 20. um	#edep profile
+/analysis/h1/set 11 100 0. 20. um	#edep profile
+/analysis/h1/set 12 100 0. 20. um	#edep profile
+/analysis/h1/set 13 100 0. 20. um	#edep profile
+#/analysis/h1/set 14 100 0. 20. 	#kine profile
+#/analysis/h1/set 15 100 0. 20. 	#kine profile
+
+#
+/testhadr/applyAutomaticStepMax true
+#
+/run/printProgress 100000
+/run/beamOn 1000000

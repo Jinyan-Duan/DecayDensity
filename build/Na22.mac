@@ -1,0 +1,47 @@
+#
+# Macro file for "Hadr07.cc"
+#
+# limit the step size from histo 10
+#
+/control/verbose 2
+/run/verbose 2
+#
+/testhadr/det/setNbOfAbsor  1
+/testhadr/det/setAbsor 1 Water  100 um
+/testhadr/det/setSizeYZ 100 um
+
+#
+/run/numberOfThreads 1
+/run/initialize
+#
+
+/testhadr/gun/setDefault
+#/gun/particle ion
+#/gun/ion 3 7 3
+#/gun/energy 1.0143 MeV
+
+/gun/particle alpha
+/gun/energy 1.7772 MeV
+
+#/gun/particle ion
+#/gun/ion 5 11 5
+#/gun/energy 6.4786 keV
+
+/process/list
+##/process/inactivate hadElastic
+
+#
+/analysis/setFileName Boron11LET
+
+/analysis/h1/set 10 100 0. 0.1 um	#BG
+/analysis/h1/set 11 150 0. 0.1 um	#BG
+/analysis/h1/set 12 100 0. 10. um	#edep profile
+/analysis/h1/set 13 100 0. 10. um	#edep profile
+
+#/analysis/h1/set 14 100 0. 20. um	#kine profile
+#/analysis/h1/set 15 100 0. 20. um	#kine profile
+#
+/testhadr/applyAutomaticStepMax true
+#
+/run/printProgress 1000
+/run/beamOn 10000

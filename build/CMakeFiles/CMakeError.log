@@ -1,0 +1,273 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/sw/lang/gcc-9.1.0/libexec/gcc/x86_64-pc-linux-gnu/9.1.0/cc1: error while loading shared libraries: libisl.so.21: cannot open shared object file: No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+/sw/lang/gcc-9.1.0/libexec/gcc/x86_64-pc-linux-gnu/9.1.0/cc1: error while loading shared libraries: libisl.so.21: cannot open shared object file: No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+/sw/lang/gcc-9.1.0/libexec/gcc/x86_64-pc-linux-gnu/9.1.0/cc1: error while loading shared libraries: libisl.so.21: cannot open shared object file: No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+/sw/lang/gcc-9.1.0/libexec/gcc/x86_64-pc-linux-gnu/9.1.0/cc1: error while loading shared libraries: libisl.so.21: cannot open shared object file: No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/gcc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc: error: unrecognized command line option ‘--target=arm-arm-none-eabi’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/sw/lang/gcc-9.1.0/libexec/gcc/x86_64-pc-linux-gnu/9.1.0/cc1: error while loading shared libraries: libisl.so.21: cannot open shared object file: No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+/sw/lang/gcc-9.1.0/libexec/gcc/x86_64-pc-linux-gnu/9.1.0/cc1: error while loading shared libraries: libisl.so.21: cannot open shared object file: No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+/sw/lang/gcc-9.1.0/libexec/gcc/x86_64-pc-linux-gnu/9.1.0/cc1: error while loading shared libraries: libisl.so.21: cannot open shared object file: No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+/sw/lang/gcc-9.1.0/libexec/gcc/x86_64-pc-linux-gnu/9.1.0/cc1: error while loading shared libraries: libisl.so.21: cannot open shared object file: No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/gcc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc: error: unrecognized command line option ‘--target=arm-arm-none-eabi’
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+gcc: fatal error: no input files
+compilation terminated.
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/sw/lang/gcc-9.1.0/libexec/gcc/x86_64-pc-linux-gnu/9.1.0/cc1plus: error while loading shared libraries: libisl.so.21: cannot open shared object file: No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+/sw/lang/gcc-9.1.0/libexec/gcc/x86_64-pc-linux-gnu/9.1.0/cc1plus: error while loading shared libraries: libisl.so.21: cannot open shared object file: No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++: error: unrecognized command line option ‘--c++’
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++: error: unrecognized command line option ‘--ec++’; did you mean ‘-Weffc++’?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/g++ 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+g++: error: unrecognized command line option ‘--target=arm-arm-none-eabi’
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/sw/lang/gcc-9.1.0/libexec/gcc/x86_64-pc-linux-gnu/9.1.0/cc1plus: error while loading shared libraries: libisl.so.21: cannot open shared object file: No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+/sw/lang/gcc-9.1.0/libexec/gcc/x86_64-pc-linux-gnu/9.1.0/cc1plus: error while loading shared libraries: libisl.so.21: cannot open shared object file: No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+g++: error: unrecognized command line option ‘--c++’
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+g++: error: unrecognized command line option ‘--ec++’; did you mean ‘-Weffc++’?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /sw/lang/gcc-9.1.0/bin/g++ 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+g++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+g++: error: unrecognized command line option ‘--target=arm-arm-none-eabi’
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d15bc/fast && /usr/bin/gmake -f CMakeFiles/cmTC_d15bc.dir/build.make CMakeFiles/cmTC_d15bc.dir/build
+gmake[1]: Entering directory `/user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d15bc.dir/testCCompiler.c.o
+/sw/lang/gcc-9.1.0/bin/gcc    -o CMakeFiles/cmTC_d15bc.dir/testCCompiler.c.o   -c /user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/CMakeTmp/testCCompiler.c
+/sw/lang/gcc-9.1.0/libexec/gcc/x86_64-pc-linux-gnu/9.1.0/cc1: error while loading shared libraries: libisl.so.21: cannot open shared object file: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_d15bc.dir/testCCompiler.c.o] Error 1
+gmake[1]: Leaving directory `/user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_d15bc/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_94dd5/fast && /usr/bin/gmake -f CMakeFiles/cmTC_94dd5.dir/build.make CMakeFiles/cmTC_94dd5.dir/build
+gmake[1]: Entering directory `/user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94dd5.dir/src.c.o
+/sw/lang/gcc-9.1.0/bin/gcc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_94dd5.dir/src.c.o   -c /user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_94dd5
+/sw/tools/cmake-3.17.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94dd5.dir/link.txt --verbose=1
+/sw/lang/gcc-9.1.0/bin/gcc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_94dd5.dir/src.c.o  -o cmTC_94dd5 
+CMakeFiles/cmTC_94dd5.dir/src.c.o: In function `main':
+src.c:(.text+0x2d): undefined reference to `pthread_create'
+src.c:(.text+0x39): undefined reference to `pthread_detach'
+src.c:(.text+0x45): undefined reference to `pthread_cancel'
+src.c:(.text+0x56): undefined reference to `pthread_join'
+src.c:(.text+0x6a): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_94dd5] Error 1
+gmake[1]: Leaving directory `/user/work/zh21940/BNCT/Hadr07LET/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_94dd5/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

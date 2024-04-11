@@ -1,0 +1,40 @@
+#
+# Macro file for "Hadr07.cc"
+#
+# limit the step size from histo 10
+#
+/control/verbose 2
+/run/verbose 2
+#
+/testhadr/det/setNbOfAbsor  1
+/testhadr/det/setAbsor 1 Bwater  1 cm
+#/testhadr/det/setAbsor 2 Bwater  1 cm
+#/testhadr/det/setAbsor 3 BWater  4 cm
+#/testhadr/det/setAbsor 4 BWater  4 cm
+#/testhadr/det/setAbsor 5 BWater  4 cm
+#/testhadr/det/setSizeYZ 20 cm
+
+#
+/run/numberOfThreads 1
+/run/initialize
+#
+
+/testhadr/gun/setDefault
+/gun/particle neutron
+/gun/energy 0.025 eV
+
+/process/list
+##/process/inactivate hadElastic
+
+#
+/analysis/setFileName TestDecayDensity
+
+
+/analysis/h1/set 22 100 0. 8. cm	#BG
+/analysis/h1/set 23 100 0. 8. cm	#BG
+/analysis/h1/set 24 100 0. 8. cm	#BG
+#
+/testhadr/applyAutomaticStepMax true
+#
+/run/printProgress 10000
+/run/beamOn 100000
